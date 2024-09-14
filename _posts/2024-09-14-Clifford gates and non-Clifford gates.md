@@ -118,7 +118,7 @@ $$
 T = \begin{pmatrix} 1 & 0 \\ 0 & e^{i\pi/4} \end{pmatrix}.
 $$
 
-The T-gate applies a phase shift of $$\frac{\pi}{4}$$ to the $$|1\rangle$$ state. Unlike Clifford gates, the T-gate does not preserve the Pauli group under conjugation. For example:
+The T-gate applies a phase shift of $$\frac{\pi}{4}$$ to the $$\ket{1}$$ state. Unlike Clifford gates, the T-gate does not preserve the Pauli group under conjugation. For example:
 
 $$
 T X T^\dagger \neq \text{Pauli operator}.
@@ -126,7 +126,7 @@ $$
 
 This lack of Pauli preservation is what makes the T-gate **non-Clifford** and, more importantly, makes it computationally powerful. Non-Clifford gates introduce additional computational resources that allow quantum circuits to perform tasks that Clifford circuits alone cannot.
 
-Another important non-Clifford gate is the **Toffoli gate**. The Toffoli gate (controlled-controlled-NOT) is a three-qubit gate that applies a NOT operation to the third qubit only when both of the first two qubits are in the $$ |1\rangle $$ state. It plays a key role in many quantum algorithms, such as Grover's algorithm, and is an important gate for classical reversible computation. Although the Toffoli gate is non-Clifford, it can be decomposed into Clifford gates and a sufficient number of T-gates (as we mentioned above).
+Another important non-Clifford gate is the **Toffoli gate**. The Toffoli gate (controlled-controlled-NOT) is a three-qubit gate that applies a NOT operation to the third qubit only when both of the first two qubits are in the $$ \ket{1} $$ state. It plays a key role in many quantum algorithms, such as Grover's algorithm, and is an important gate for classical reversible computation. Although the Toffoli gate is non-Clifford, it can be decomposed into Clifford gates and a sufficient number of T-gates (as we mentioned above).
 
 The introduction of non-Clifford gates, such as the Toffoli or T-gate, increases the complexity of quantum circuits. Once non-Clifford operations are applied, the circuit can no longer be efficiently simulated classically, as the state space grows exponentially. This distinction is what enables quantum algorithms, such as Shor's and Grover's, to achieve speedups that surpass classical computation.
 

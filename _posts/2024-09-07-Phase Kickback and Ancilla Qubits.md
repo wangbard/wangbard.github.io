@@ -1,7 +1,7 @@
 ---
 title: "Phase Kickback and Ancilla Qubits"
 date: 2024-09-07 15:00:00 +0800
-categories: Quantum Algorithm
+categories: [Quantum Computing, Quantum Algorithm]
 tags: [quantum computing, quantum algorithm]     # TAG names should always be lowercase
 math: true
 ---

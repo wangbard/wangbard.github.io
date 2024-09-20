@@ -1,7 +1,7 @@
 ---
 title: "Clifford gates and non-Clifford gates"
 date: 2024-09-14 14:00:00 +0800
-categories: Quantum Computing
+categories: [Quantum Computing]
 tags: [quantum computing, math]     # TAG names should always be lowercase
 math: true
 ---

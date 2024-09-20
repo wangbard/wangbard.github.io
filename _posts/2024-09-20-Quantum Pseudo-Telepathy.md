@@ -1,7 +1,7 @@
 ---
 title: "Quantum Pseudo-Telepathy"
 date: 2024-09-20 23:59:00 +0800
-categories: Quantum Computing
+categories: [Quantum Computing]
 tags: [quantum computing]     # TAG names should always be lowercase
 math: true
 ---

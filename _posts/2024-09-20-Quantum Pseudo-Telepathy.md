@@ -40,9 +40,8 @@ $$
 In this setup, Alice holds qubits 1 and 3, while Bob holds qubits 2 and 4. Depending on the row (for Alice) or column (for Bob) they are assigned, they will measure specific observables that guarantee the game’s rules are satisfied.
 
 ### **4.2 Quantum Strategy for 100% Success**
-In the quantum strategy, Alice and Bob are able to achieve a 100% success rate by measuring specific observables that are carefully designed to satisfy the game’s conditions. The operators they measure are chosen from a predetermined set of commuting observables, as illustrated in [Figure 1](#figure1).
+In the quantum strategy, Alice and Bob are able to achieve a 100% success rate by measuring specific observables that are carefully designed to satisfy the game’s conditions. The operators they measure are chosen from a predetermined set of commuting observables, as illustrated in the figure below.
 
-<a id="figure1"></a>
 ![img-description](/image/observable_square.png){: w="470" h="470" }
 _Figure 1: The set of commuting observables used in the quantum strategy for the Magic Square Game. Each row corresponds to Alice’s measurements, while each column corresponds to Bob’s measurements._
 
@@ -60,7 +59,7 @@ The key feature of the quantum strategy is that these carefully chosen observabl
 
 By using the entangled state $$\ket{\Psi}$$ and measuring these commuting observables, Alice and Bob can ensure that their values in the shared slot always match, and the game’s requirements are satisfied with 100% success. This quantum strategy highlights a significant advantage over classical approaches, which are limited to a success probability of $$8/9$$.
 
-In the following discussion, we will explain why performing measurements according to this grid of commuting observables (as in [Figure 1](#figure1)) leads to guaranteed success. We will begin by introducing the concept of commuting observables and proceed to show how the calculated expectation values perfectly match the conditions of the game.
+In the following discussion, we will explain why performing measurements according to this grid of commuting observables (as in Figure 1) leads to guaranteed success. We will begin by introducing the concept of commuting observables and proceed to show how the calculated expectation values perfectly match the conditions of the game.
 
 ### **4.3 Commuting Observables and Game Design**
 The success of the quantum strategy is based on the fact that Alice’s and Bob’s observables for each row and column are **commuting operators**. The commuting property has two important implications:
@@ -186,7 +185,7 @@ This commuting structure forms the foundation for why Alice and Bob can achieve 
 #### **4.7.1 Row and Column Expectation Values**
 Now that we have established that the observables commute, we can calculate the *expectation values* of the measurements. For the game to be won, Alice’s row measurements must always yield a product of $$+1$$ and Bob’s column measurements must yield a product of $$-1$$. 
 
-Consider Alice’s first row, based on the observables in [Figure 1](#figure1). The product of the observables is:
+Consider Alice’s first row, based on the observables in Figure 1. The product of the observables is:
 
 $$
 (I \otimes Z)(Z \otimes I)(Z \otimes Z) = I \otimes I

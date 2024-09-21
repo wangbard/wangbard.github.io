@@ -42,7 +42,7 @@ In this setup, Alice holds qubits 1 and 3, while Bob holds qubits 2 and 4. Depen
 ### **4.2 Quantum Strategy for 100% Success**
 In the quantum strategy, Alice and Bob are able to achieve a 100% success rate by measuring specific observables that are carefully designed to satisfy the game’s conditions. The operators they measure are chosen from a predetermined set of commuting observables, as illustrated in [Figure 1](#figure1).
 
-<a name="figure1"></a>
+<a id="figure1"></a>
 ![img-description](/image/observable_square.png){: w="470" h="470" }
 _Figure 1: The set of commuting observables used in the quantum strategy for the Magic Square Game. Each row corresponds to Alice’s measurements, while each column corresponds to Bob’s measurements._
 

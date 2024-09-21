@@ -6,7 +6,7 @@ tags: [quantum computing, quantum algorithm]     # TAG names should always be lo
 math: true
 ---
 
-## 1. Why Different Starting States for Ancilla Qubit in Phase Kickback?
+## **1. Why Different Starting States for Ancilla Qubit in Phase Kickback?**
 
 In quantum algorithms, the **ancilla qubit** plays a central role in the **phase kickback** mechanism, which is essential for transferring phase information. Depending on the algorithm, the ancilla qubit is initialized in different states, either $\ket{0}$, $\ket{1}$, or an eigenstate $\ket{u}$ of a unitary operator. These choices reflect the goals of each algorithm, whether accumulating phase information or inducing a phase flip.
 
@@ -14,11 +14,11 @@ For example, in **Quantum Phase Estimation (QPE)**, the ancilla qubit starts in 
 
 This paper explores the different roles and starting states of the ancilla qubit in these algorithms, focusing on **Quantum Phase Estimation** and **Deutsch-Josza and Grover’s Algorithm**.
 
-## 2. Quantum Phase Estimation (QPE)
+## **2. Quantum Phase Estimation (QPE)**
 
 **Quantum Phase Estimation (QPE)** is designed to estimate the phase (an eigenvalue) associated with a unitary operator $U$, when applied to its eigenstate $\ket{u}$. The **ancilla qubit** in QPE plays a passive role in phase kickback, holding the eigenstate information that is transferred to the control qubits.
 
-### 2.1 Phase Kickback in QPE
+### **2.1 Phase Kickback in QPE**
 
 In QPE, the ancilla qubit is not initialized in the usual computational basis states ($\ket{0}$ or $\ket{1}$), but rather in an eigenstate $\ket{u}$ of the unitary operator $U$. This choice is crucial because the goal of QPE is to accumulate phase information about $U$ by interacting with its eigenstate.
 
@@ -46,7 +46,7 @@ In QPE, the ancilla qubit is not initialized in the usual computational basis st
 
 In summary, in QPE, the ancilla qubit is initialized in an eigenstate to facilitate the transfer of phase information to the control qubits, and the ancilla qubit itself remains unchanged in the process.
 
-## 3. Deutsch-Josza and Grover’s Algorithm
+## **3. Deutsch-Josza and Grover’s Algorithm**
 
 In contrast to QPE, the **ancilla qubit** in algorithms like **Deutsch-Josza** and **Grover’s Algorithm** plays an active role by introducing a **phase flip** through phase kickback. In both algorithms, the ancilla qubit is initialized in the state $\ket{1}$, allowing for the extraction of information based on the function $f(x)$. A key distinction between these algorithms and QPE is that, instead of using a controlled unitary as in QPE, these algorithms use a **CNOT gate** to apply phase kickback and induce the phase flip. The CNOT gate interacts with the ancilla qubit, flipping its phase when the function $f(x)$ evaluates to 1.  
 
@@ -56,7 +56,7 @@ In both algorithms, the process follows these steps:
 - The oracle, represented by a function $f(x)$, applies a **CNOT gate** to the ancilla qubit to induce a phase flip if $f(x) = 1$. If $f(x) = 0$, no phase flip occurs.
 - The phase flip changes the sign of the ancilla qubit’s state, introducing quantum interference effects that help identify the solution or the balanced function.
 
-### 3.1 Phase Kickback in Deutsch-Josza and Grover’s
+### **3.1 Phase Kickback in Deutsch-Josza and Grover’s**
 
 In both the Deutsch-Josza and Grover’s algorithms, the ancilla qubit is initialized in $\ket{1}$ to facilitate phase kickback. This initialization ensures that a phase flip can be induced if the function $f(x)$ evaluates to 1, marking the relevant states for measurement. The CNOT gate is used to induce the phase flip, interacting with the ancilla qubit when the function evaluates to $f(x) = 1$.
 
@@ -95,7 +95,7 @@ Here’s a more detailed explanation of how the phase flip works:
 
 Here, the phase flip ensures that the marked state (for which $f(x) = 1$) has its sign flipped, which is critical for later amplification and interference effects.
 
-### 3.2 How Phase Kickback is Used in Each Algorithm
+### **3.2 How Phase Kickback is Used in Each Algorithm**
 
 - **In the Deutsch-Josza algorithm**:
     - After the Hadamard gates create the superposition of all input states, the oracle uses the CNOT gate to apply phase flips to the states where $f(x) = 1$. After querying the oracle, another round of Hadamard gates is applied to interfere with the states, and a final measurement is made to determine whether the function is constant or balanced.
@@ -111,7 +111,7 @@ Here, the phase flip ensures that the marked state (for which $f(x) = 1$) has it
     
     - With each iteration, the amplitude of the marked state increases, making it more likely to be measured as the correct solution. After a few iterations, the probability of finding the correct solution becomes significantly higher, and a final measurement will yield the solution with high probability.
 
-## 4. Summary
+## **4. Summary**
 
 The starting state of the **ancilla qubit** in phase kickback depends on the purpose of the algorithm:
 

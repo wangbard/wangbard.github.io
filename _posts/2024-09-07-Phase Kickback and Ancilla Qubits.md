@@ -90,7 +90,7 @@ Here’s a more detailed explanation of how the phase flip works:
 - Finally, after the function evaluation, the resulting state is:
   
     $$
-    \ket{\psi_3} = (-1)^{f(x)} \ket{\bar{x}} \otimes \ket{1}
+    \ket{\psi_3} = (-1)^{f(x)} \ket{x} \otimes \ket{1}
     $$
 
 Here, the phase flip ensures that the marked state (for which $f(x) = 1$) has its sign flipped, which is critical for later amplification and interference effects.

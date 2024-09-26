@@ -150,4 +150,4 @@ The **Clifford group** plays an essential role in the structure of quantum circu
 
 [^1]: Gottesman, D. (1999). [The Heisenberg representation of quantum computers](https://arxiv.org/abs/quant-ph/9807006)
 
-[^2]: Kunihiro, N. (2003). *Practical running time of factoring by quantum circuits*: <http://aqis-conf.org/archives/eqis03/program/posters/P610-Kunihiro.pdf>
+[^2]: Kunihiro, N. (2003). *Practical running time of factoring by quantum circuits*: http://aqis-conf.org/archives/eqis03/program/posters/P610-Kunihiro.pdf

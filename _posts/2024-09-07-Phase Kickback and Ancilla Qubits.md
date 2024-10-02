@@ -1,5 +1,6 @@
 ---
 title: "Phase Kickback and Ancilla Qubits"
+description: In this article, we investigate different choice of ancilla qubits for phase kickback in different quantum algorithms, particularly in Quantum Phase Estimation, Deutsch-Josza and Grover's Algorithm.
 date: 2024-09-07 15:00:00 +0800
 categories: [Quantum Computing, Quantum Algorithm]
 tags: [quantum computing, quantum algorithm]     # TAG names should always be lowercase

@@ -10,3 +10,7 @@ My name is **Mingrui Zou**, and I am currently pursuing a Master’s in Cybersec
 ## **Research Interests**
 
 My research interests span both **quantum algorithms** and **cryptography**, with a particular focus on quantum algorithms and post-quantum cryptography. I am actively seeking a **Ph.D.** position to further explore these areas and contribute to advancements in quantum technologies and secure systems as we move toward a quantum-powered future.
+
+> 📄 **My MSc Dissertation on** ***Multiparty Computation Combiners***  
+> If you are interested, you may [read the full dissertation here](https://wangbard.github.io/files/Multiparty_Computation_Combiners.pdf).
+{: .prompt-info }

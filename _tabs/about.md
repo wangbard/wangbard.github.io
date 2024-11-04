@@ -28,7 +28,7 @@ _09/2018 - 07/2023_ - **Upper Second-Class Honours**
 
 ### Multiparty Computation Combiners _(2024/04 - 2024/08)_
 
-In my Master's thesis, supervised by Dr. Michele Ciampi, I investigated the construction of cryptographic combiners for secure multiparty computation (MPC). Given that Oblivious Transfer (OT) is a fundamental building block in many MPC protocols—and that robust combiners for OT remain an open problem—the design of secure MPC combiners poses unique challenges. In this research, I introduce the first formal definition of black-box MPC combiners, which ensure that secure computation can still be achieved even if some underlying protocols fail, as long as a subset of the candidates remains reliable. A key contribution is the design and analysis of a 1-out-of-2 MPC combiner that securely computes a function for two parties under semi-honest setting using two candidate MPC protocols, under the assumption that at least one remains secure. Through rigorous cryptographic analysis, employing simulation-based security proofs and theorems, the combiner’s design was validated to ensure security for at least one party. I also discussed the inherent limitations in achieving full two-party security under two protocols. Building on the this, I developed a 2-out-of-3 MPC combiner that requires at least two out of three candidate protocols to remain secure. I examined the vulnerabilities of this approach and proposed an alternative construction that, while less efficient, provides robust security guarantees.
+In my Master's thesis, supervised by Dr. Michele Ciampi, I investigated the construction of cryptographic combiners for secure multiparty computation (MPC). Given that Oblivious Transfer (OT) is a fundamental building block in many MPC protocols—and that previous research has shown the impossibility of transparent black-box construction for 1-out-of-2 OT combiners—the design of secure MPC combiners poses unique challenges. In this research, I introduce the first formal definition of black-box MPC combiners, which ensure that secure computation can still be achieved even if some underlying protocols fail, as long as a subset of the candidates remains reliable. A key contribution is the design and analysis of a 1-out-of-2 MPC combiner that securely computes a function for two parties under semi-honest setting using two candidate MPC protocols, under the assumption that at least one remains secure. Through rigorous cryptographic analysis, employing simulation-based security proofs and theorems, the combiner’s design was validated to ensure security for at least one party. I also discussed the inherent limitations in achieving full two-party security under two protocols. Building on the this, I developed a 2-out-of-3 MPC combiner that requires at least two out of three candidate protocols to remain secure. I examined the vulnerabilities of this approach and proposed an alternative construction that, while less efficient, provides robust security guarantees.
 
 > 📄 **My MSc Dissertation on** ***Multiparty Computation Combiners***  
 > If you are interested, you may [read the full dissertation here](https://wangbard.github.io/files/Multiparty_Computation_Combiners.pdf).
@@ -94,7 +94,7 @@ This undergraduate thesis, supervised by Prof. Chris Heunen, focused on analyzin
     </div>
     <div class="skill">
         <span>C</span>
-        <div class="skill-bar" style="width: 60%;"></div>
+        <div class="skill-bar" style="width: 55%;"></div>
     </div>
 </div>
 

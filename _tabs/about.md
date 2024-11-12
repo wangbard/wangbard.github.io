@@ -7,6 +7,12 @@ order: 4
 
 My name is **Mingrui Zou**, and I am currently pursuing a Master’s in Cybersecurity at The University of Edinburgh. My thesis focuses on secure multiparty computation (MPC) combiners under the supervision of Dr. Michele Ciampi. Prior to this, I completed my Bachelor’s degree in Computer Science and Artificial Intelligence at The University of Edinburgh, where my undergraduate thesis, supervised by Prof. Chris Heunen and Dr. Robin Kaarsgaard, examined the topic of quantum information effects. My academic journey has led me to explore the intersection of quantum computing and cryptography, particularly in their applications to secure communication systems.
 
+> 🔑 **My PGP Fingerprint**  
+> `E149 B1A3 F402 5B79 77EC F94D B29A F9E5 93DF 06E7`   
+> 📥 **[Download Public Key](/files/wangbard_0x93DF06E7_public.asc)**  
+{: .prompt-info }
+
+
 ## **Research Interests**
 
 My research interests span both **cryptography** and **quantum computing**, with a particular focus on post-quantum cryptography and quantum algorithms. I am actively seeking a **Ph.D.** position to further explore these areas and contribute to advancements in quantum technologies and secure systems as we move toward a quantum-powered future.
@@ -31,7 +37,7 @@ _09/2018 - 07/2023_ - **Upper Second-Class Honours**
 In my Master's thesis, supervised by Dr. Michele Ciampi, I investigated the construction of cryptographic combiners for secure multiparty computation (MPC). Given that Oblivious Transfer (OT) is a fundamental building block in many MPC protocols—and that previous research has shown the impossibility of transparent black-box construction for 1-out-of-2 OT combiners—the design of secure MPC combiners poses unique challenges. In this research, I introduce the first formal definition of black-box MPC combiners, which ensure that secure computation can still be achieved even if some underlying protocols fail, as long as a subset of the candidates remains reliable. A key contribution is the design and analysis of a 1-out-of-2 MPC combiner that securely computes a function for two parties under semi-honest setting using two candidate MPC protocols, under the assumption that at least one remains secure. Through rigorous cryptographic analysis, employing simulation-based security proofs and theorems, the combiner’s design was validated to ensure security for at least one party. I also discussed the inherent limitations in achieving full two-party security under two protocols. Building on the this, I developed a 2-out-of-3 MPC combiner that requires at least two out of three candidate protocols to remain secure. I examined the vulnerabilities of this approach and proposed an alternative construction that, while less efficient, provides robust security guarantees.
 
 > 📄 **My MSc Dissertation on** ***Multiparty Computation Combiners***  
-> If you are interested, you may [read the full dissertation here](https://wangbard.github.io/files/Multiparty_Computation_Combiners.pdf).
+> If you are interested, you may [read the full dissertation here](/files/Multiparty_Computation_Combiners.pdf).
 {: .prompt-info }
 
 ### Helping Yuppies on Quantum Information Effects _(2022/09 - 2023/04)_

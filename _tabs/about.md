@@ -20,14 +20,12 @@ My research interests span both **cryptography** and **quantum computing**, with
 ## **Education**
 
 **The University of Edinburgh**  
-*Master of Science in Cybersecurity, Privacy and Trust*  
-_09/2023 - 11/2024_ - **MSc With Distinction**
-- **Thesis title**: Multiparty Computation Combiners.
+_09/2023 - 11/2024_ --  ***Master of Science in Cybersecurity, Privacy and Trust***  
+**Thesis title**: Multiparty Computation Combiners
 
 **The University of Edinburgh**  
-*Bachelor of Science with Honours in Artificial Intelligence and Computer Science*  
-_09/2018 - 07/2023_ - **Upper Second-Class Honours**
-- **Thesis title**: Helping Yuppies on Quantum Information Effects.
+_09/2018 - 07/2023_ -- ***Bachelor of Science with Honours in Artificial Intelligence and Computer Science***   
+**Thesis title**: Helping Yuppies on Quantum Information Effects
 
 
 ## **Thesis Projects**

@@ -5,7 +5,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-My name is **Mingrui Zou**, and I am currently pursuing a Master’s in Cybersecurity at The University of Edinburgh. My thesis focuses on secure multiparty computation (MPC) combiners under the supervision of Dr. Michele Ciampi. Prior to this, I completed my Bachelor’s degree in Computer Science and Artificial Intelligence at The University of Edinburgh, where my undergraduate thesis, supervised by Prof. Chris Heunen and Dr. Robin Kaarsgaard, examined the topic of quantum information effects. My academic journey has led me to explore the intersection of quantum computing and cryptography, particularly in their applications to secure communication systems.
+My name is **Mingrui Zou**. This blog is my space to share my journey—through the world of cryptography, quantum computing, math, and beyond. Thanks for stopping by, and let’s explore together!
 
 > 🔑 **My PGP Fingerprint**  
 > `E149 B1A3 F402 5B79 77EC F94D B29A F9E5 93DF 06E7`   
@@ -38,9 +38,9 @@ In my Master's thesis, supervised by Dr. Michele Ciampi, I investigated the cons
 > If you are interested, you may [read the full dissertation here](/files/Multiparty_Computation_Combiners.pdf).
 {: .prompt-info }
 
-### Helping Yuppies on Quantum Information Effects _(2022/09 - 2023/04)_
+<!-- ### Helping Yuppies on Quantum Information Effects _(2022/09 - 2023/04)_
 
-This undergraduate thesis, supervised by Prof. Chris Heunen, focused on analyzing the type-and-effect interpretation of measurement as introduced in his paper *"Quantum Information Effects"*. The study formulated measurement as a computational effect, involving both the introduction of ancilla systems (allocation) and the selective reduction of information (hiding) to exploit the purification of quantum states. In my thesis, a Haskell program was developed based on the proposed categorical semantics to calculate the minimum number of ancilla (auxiliary qubits) required for measurement as a quantum information effect, demonstrating the practical application of these theoretical concepts. Additionally, a mathematical proof was formulated to elucidate the relationship between the minimum number of ancilla qubits needed and the von Neumann entropy of the system.
+This undergraduate thesis, supervised by Prof. Chris Heunen, focused on analyzing the type-and-effect interpretation of measurement as introduced in his paper *"Quantum Information Effects"*. The study formulated measurement as a computational effect, involving both the introduction of ancilla systems (allocation) and the selective reduction of information (hiding) to exploit the purification of quantum states. In my thesis, a Haskell program was developed based on the proposed categorical semantics to calculate the minimum number of ancilla (auxiliary qubits) required for measurement as a quantum information effect, demonstrating the practical application of these theoretical concepts. Additionally, a mathematical proof was formulated to elucidate the relationship between the minimum number of ancilla qubits needed and the von Neumann entropy of the system. -->
 
 ## MISC
 
@@ -86,19 +86,19 @@ This undergraduate thesis, supervised by Prof. Chris Heunen, focused on analyzin
 <div class="skills">
     <div class="skill">
         <span>Python</span>
-        <div class="skill-bar" style="width: 90%;"></div>
+        <div class="skill-bar" style="width: 85%;"></div>
     </div>
     <div class="skill">
         <span>Java</span>
         <div class="skill-bar" style="width: 80%;"></div>
     </div>
     <div class="skill">
-        <span>Haskell</span>
-        <div class="skill-bar" style="width: 70%;"></div>
+        <span>C</span>
+        <div class="skill-bar" style="width: 75%;"></div>
     </div>
     <div class="skill">
-        <span>C</span>
-        <div class="skill-bar" style="width: 55%;"></div>
+        <span>Haskell</span>
+        <div class="skill-bar" style="width: 70%;"></div>
     </div>
 </div>
 

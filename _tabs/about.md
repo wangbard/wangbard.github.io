@@ -86,19 +86,19 @@ This undergraduate thesis, supervised by Prof. Chris Heunen, focused on analyzin
 <div class="skills">
     <div class="skill">
         <span>Python</span>
-        <div class="skill-bar" style="width: 85%;"></div>
+        <div class="skill-bar" style="width: 88%;"></div>
     </div>
     <div class="skill">
         <span>Java</span>
+        <div class="skill-bar" style="width: 84%;"></div>
+    </div>
+    <div class="skill">
+        <span>C++</span>
         <div class="skill-bar" style="width: 80%;"></div>
     </div>
     <div class="skill">
-        <span>C</span>
-        <div class="skill-bar" style="width: 75%;"></div>
-    </div>
-    <div class="skill">
         <span>Haskell</span>
-        <div class="skill-bar" style="width: 70%;"></div>
+        <div class="skill-bar" style="width: 76%;"></div>
     </div>
 </div>
 

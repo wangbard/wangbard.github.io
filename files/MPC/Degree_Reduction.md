@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Degree Reduction"
+permalink: /private/degree_reduction/
+date: 2025-09-22 23:56:00 +0200
+math: true
+---
+
+
 - **Goal:** compute a multiplication gate on shares
 - **Setup:**
 	- $a$ is t-shared via $A(x)$ , $b$ is t-shared via $B(x)$
@@ -8,14 +17,19 @@
 - **Fix: degree reduction**
 	- The degree- $2t$ product polynomial $C(x)$ is uniquely determined if $n>2t$
 	- Interpolate:
+  
 	  $$
-      C(x) = \sum_{i=1}^n C(\alpha_i)\,\ell_i(x),\quad
-	    \ell_i(x)=\prod_{j\ne i}\frac{x-\alpha_j}{\alpha_i-\alpha_j}
-	  $$  
-
+      C(x) = \sum_{i=1}^n C(\alpha_i)\,\ell_i(x),\quad \ell_i(x)=\prod_{j\ne i}\frac{x-\alpha_j}{\alpha_i-\alpha_j}
+	  $$
 - **But! We only need the secret:**
-  $C(0) = \sum_{i=1}^n \lambda_i\,C(\alpha_i),\quad \lambda_i=\ell_i(0)$ , where $\lambda_i$ is a constant.  
+
+  $$
+  C(0) = \sum_{i=1}^n \lambda_i\,C(\alpha_i),\quad \lambda_i=\ell_i(0)
+  $$
+
+  where $\lambda_i$ is a constant.  
   This becomes a **linear relation**, and we know how to deal with linear relations.  
+
 - **Trick (reshare + recombine):**
 	- Each party $i$ (who knows $C(\alpha_i)$ ) **t-shares** $C(\alpha_i)$ with fresh randomness
 	- Everyone linearly combines these t-shares using the public weights $\lambda_i$

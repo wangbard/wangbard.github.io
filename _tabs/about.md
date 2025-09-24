@@ -5,7 +5,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-My name is **Mingrui Zou**. This blog is my space to share my journey—through the world of cryptography, quantum computing, math, and beyond. Thanks for stopping by, and let’s explore together!
+My name is **Mingrui Zou**. This blog is my corner of the internet where I dump thoughts, half-baked ideas, and the occasional “aha!” moment. Expect a mix of cryptography, quantum computing, and whatever else I trip over that seems worth writing down. Think of it as notes-to-self that I happened to leave unlocked — if you find them useful, great; if not, at least you now know how scattered my interests are.
 
 > 🔑 **My PGP Fingerprint**  
 > `E149 B1A3 F402 5B79 77EC F94D B29A F9E5 93DF 06E7`   
@@ -20,7 +20,7 @@ My research interests span both **cryptography** and **quantum computing**, with
 ## **Education**
 
 **University of Amsterdam**  
-_09/2025 - now_
+_09/2025 - now_ -- **PhD**  
 
 **The University of Edinburgh**  
 _09/2023 - 08/2024_ --  ***Master of Science in Cybersecurity, Privacy and Trust***  
@@ -77,7 +77,7 @@ This undergraduate thesis, supervised by Prof. Chris Heunen, focused on analyzin
 }
 </style>
 
-### Programming Skills
+<!-- ### Programming Skills
 <div class="skills">
     <div class="skill">
         <span>Python</span>
@@ -95,7 +95,7 @@ This undergraduate thesis, supervised by Prof. Chris Heunen, focused on analyzin
         <span>Haskell</span>
         <div class="skill-bar" style="width: 76%;"></div>
     </div>
-</div>
+</div> -->
 
 ### Rubik's Cube
 

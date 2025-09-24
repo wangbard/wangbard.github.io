@@ -20,7 +20,7 @@ My research interests span both **cryptography** and **quantum computing**, with
 ## **Education**
 
 **University of Amsterdam**  
-_09/2025 - now_ -- **PhD**  
+_09/2025 - now_ -- ***PhD***  
 
 **The University of Edinburgh**  
 _09/2023 - 08/2024_ --  ***Master of Science in Cybersecurity, Privacy and Trust***  
